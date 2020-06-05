@@ -1,0 +1,3 @@
+colocar erro na saida do request
+
+https://medium.com/@renato.groffe/asp-net-core-2-0-retornando-mensagens-de-erro-em-apis-rest-8c24f03a4552
