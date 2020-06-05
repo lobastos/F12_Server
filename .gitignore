@@ -1,3 +1,3 @@
-[Bb]in/*
-[Oo]bj/*
-[Mm]igrations/
+bin/
+obj/
+Migrations/
