@@ -29,8 +29,7 @@ namespace LibsServer.Model
         public DateTime DataNascimento { get; set; }
         public TipoPessoa TipoPessoa { get; set; }
         public string Observacoes { get; set; }
-        public string NumeroBanco {get; set;}
-        public string Agencia { get; set; }
-        public string Conta { get; set; }
+        [Column(TypeName = "jsonb")]
+        public DadosBancarios dadosBancarios {get; set;}
     }
 }
